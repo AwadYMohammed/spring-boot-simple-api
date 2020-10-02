@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WelcomeController {
 	@Autowired
-	private WelcomeService service;
+	private WelcomeService service = new WelcomeService();
 	
 	@RequestMapping("/welcome")
 	public String welcome() {
@@ -17,7 +17,8 @@ public class WelcomeController {
 	@Component
 	class WelcomeService{
 		public String retrieveWelcomeMessage() {
-			return "Good Morning! updated";
+			
+			return "Good Morning!";
 		}
 		
 	}

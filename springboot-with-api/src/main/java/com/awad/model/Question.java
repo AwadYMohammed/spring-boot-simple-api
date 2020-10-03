@@ -17,8 +17,7 @@ public class Question {
 
 	}
 
-	public Question(String id, String description, String correctAnswer,
-			List<String> options) {
+	public Question(String id, String description, String correctAnswer, List<String> options) {
 		super();
 		this.id = id;
 		this.description = description;
@@ -48,9 +47,8 @@ public class Question {
 
 	@Override
 	public String toString() {
-		return String
-				.format("Question [id=%s, description=%s, correctAnswer=%s, options=%s]",
-						id, description, correctAnswer, options);
+		return String.format("Question [id=%s, description=%s, correctAnswer=%s, options=%s]", id, description,
+				correctAnswer, options);
 	}
 
 	@Override

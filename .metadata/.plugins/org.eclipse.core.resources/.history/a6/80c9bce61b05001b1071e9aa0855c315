@@ -1,0 +1,12 @@
+package com.awad.springboot.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.awad.service.SurveyService;
+
+@RestController
+public class SurveyController {
+	
+	private SurveyService surveyService;
+
+}

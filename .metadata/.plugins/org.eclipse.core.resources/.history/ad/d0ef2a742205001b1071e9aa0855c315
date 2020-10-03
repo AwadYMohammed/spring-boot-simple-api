@@ -27,7 +27,7 @@ class SurveyController {
 	}
 	@GetMapping(path = "/surveys")
 	public List<Survey> retrieveAllSurveys() {
-		return surveyService.retrieveAllSurveys();
+		return surveys;
 	}
 	
 }

@@ -13,6 +13,7 @@ public class WelcomeController {
 
 	@RequestMapping("/welcome")
 	public String welcome() {
+//		return service.retrieveWelcomeMessage();
 		return service.retrieveWelcomeMessage();
 	}
 

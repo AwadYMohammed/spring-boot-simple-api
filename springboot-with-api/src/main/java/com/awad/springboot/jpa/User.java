@@ -10,23 +10,14 @@ public class User {
 	protected User() {
 	}
 
-	/**
-	 * @return the id
-	 */
 	public Long getId() {
 		return id;
 	}
 
-	/**
-	 * @return the name
-	 */
 	public String getName() {
 		return name;
 	}
 
-	/**
-	 * @return the role
-	 */
 	public String getRole() {
 		return role;
 	}

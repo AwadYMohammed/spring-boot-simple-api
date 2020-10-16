@@ -1,5 +1,0 @@
-package com.awad.springboot.controller;
-
-public class SurveyController {
-
-}

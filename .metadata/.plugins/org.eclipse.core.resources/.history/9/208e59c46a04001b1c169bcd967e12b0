@@ -1,5 +1,0 @@
-package com.awad.springboot;
-
-public class WelcomeController {
-
-}
